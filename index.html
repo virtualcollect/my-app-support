@@ -9,11 +9,20 @@
         h1 { border-bottom: 2px solid #007aff; padding-bottom: 10px; margin-top: 40px; }
         h1:first-of-type { margin-top: 0; }
         h2 { margin-top: 30px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        h3 { margin-top: 20px; }
         .btn { display: inline-block; background: #007aff; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; margin-top: 10px; font-weight: bold; }
         .btn:hover { background: #0056b3; }
         .divider { margin: 60px 0; border: 0; border-top: 2px dashed #ccc; }
-        ol { padding-left: 20px; }
+        ol, ul { padding-left: 20px; }
         li { margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; vertical-align: top; }
+        th { background-color: #f8f9fa; width: 30%; }
+        @media (max-width: 600px) {
+            table, tbody, tr, th, td { display: block; width: 100%; box-sizing: border-box; }
+            th { background-color: #eef2f5; border-bottom: none; }
+            td { border-top: none; }
+        }
     </style>
 </head>
 <body>
@@ -58,6 +67,54 @@
 
         <h3>3. お問い合わせ窓口</h3>
         <p>プライバシーポリシーに関するお問い合わせは、上記のお問い合わせフォームよりご連絡ください。</p>
+
+        <h2>特定商取引法に基づく表記</h2>
+        <table>
+            <tr>
+                <th>事業者名（販売業者）</th>
+                <td>[Jun Watanabe]</td>
+            </tr>
+            <tr>
+                <th>代表者または運営責任者</th>
+                <td>[Jun Watanabe]</td>
+            </tr>
+            <tr>
+                <th>所在地</th>
+                <td>愛知県名古屋市中村区名駅4丁目24番5号 第2森ビル401</td>
+            </tr>
+            <tr>
+                <th>電話番号</th>
+                <td>※開示を請求された場合、遅滞なく開示いたします。</td>
+            </tr>
+            <tr>
+                <th>メールアドレス / お問い合わせ</th>
+                <td>上記のお問い合わせフォームよりご連絡ください。</td>
+            </tr>
+            <tr>
+                <th>販売価格</th>
+                <td>アプリ内購入画面（有料プラン選択画面）に表示される価格をご確認ください。</td>
+            </tr>
+            <tr>
+                <th>商品代金以外の必要料金</th>
+                <td>アプリのダウンロード、閲覧、コンテンツ購入等に必要なインターネット接続費用および通信サービス費用はお客様のご負担となります。</td>
+            </tr>
+            <tr>
+                <th>お支払い方法</th>
+                <td>App Store（Apple Inc.）が提供する決済方法に従います。</td>
+            </tr>
+            <tr>
+                <th>代金の支払時期</th>
+                <td>購入手続き完了時にお手元のApple IDアカウントに課金されます。</td>
+            </tr>
+            <tr>
+                <th>商品の引渡時期（サービス提供時期）</th>
+                <td>購入手続き完了後、直ちにご利用いただけます。</td>
+            </tr>
+            <tr>
+                <th>返品・交換・解約について</th>
+                <td>デジタルコンテンツの性質上、購入完了後のキャンセル・返金には原則として応じられません。サブスクリプションの解約は上記「サブスクリプションの解約方法」に従い、次回更新日までに手続を行ってください。</td>
+            </tr>
+        </table>
     </section>
 
     <hr class="divider">
@@ -102,10 +159,58 @@
 
         <h3>3. Contact Information</h3>
         <p>If you have any questions regarding this Privacy Policy, please contact us via the link above.</p>
+
+        <h2>Specified Commercial Transactions Act</h2>
+        <table>
+            <tr>
+                <th>Seller / Provider</th>
+                <td>[Your Name or Business Name]</td>
+            </tr>
+            <tr>
+                <th>Representative</th>
+                <td>[Your Name]</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>#401 Dai2 Mori Bldg., 4-24-5 Meieki, Nakamura-ku, Nagoya-shi, Aichi, Japan</td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td>*Will be disclosed without delay upon request.</td>
+            </tr>
+            <tr>
+                <th>Email / Contact</th>
+                <td>Please contact us via the Contact Form above.</td>
+            </tr>
+            <tr>
+                <th>Selling Price</th>
+                <td>Displayed on the in-app purchase screen for each item/plan.</td>
+            </tr>
+            <tr>
+                <th>Additional Fees</th>
+                <td>Internet connection and data transmission fees required for downloading and using the app are borne by the customer.</td>
+            </tr>
+            <tr>
+                <th>Payment Method</th>
+                <td>Payments are processed through the App Store (Apple Inc.).</td>
+            </tr>
+            <tr>
+                <th>Payment Timing</th>
+                <td>Charged to your Apple ID account upon confirmation of purchase.</td>
+            </tr>
+            <tr>
+                <th>Delivery Time</th>
+                <td>Services/features become available immediately after the purchase is completed.</td>
+            </tr>
+            <tr>
+                <th>Returns / Cancellations</th>
+                <td>Due to the nature of digital content, all purchases are non-refundable and non-cancellable once completed. To cancel a subscription, please complete the procedure at least 24 hours before the end of the current period via the steps above.</td>
+            </tr>
+        </table>
     </section>
 
     <hr style="margin-top: 40px;">
-    <p style="font-size: 0.8em; color: #777; text-align: center;">&copy; 2026 virtualcollect. All rights reserved.</p>
+    <p style="font-size: 0.8em; color: #777; text-align: center;">&copy; 2026 Developer Name. All rights reserved.</p>
 
 </body>
 </html>
