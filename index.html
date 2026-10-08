@@ -18,6 +18,7 @@
         table { width: 100%; border-collapse: collapse; margin-top: 15px; }
         th, td { border: 1px solid #ccc; padding: 10px; text-align: left; vertical-align: top; }
         th { background-color: #f8f9fa; width: 30%; }
+        .note { font-size: 0.9em; color: #666; margin-top: -5px; }
         @media (max-width: 600px) {
             table, tbody, tr, th, td { display: block; width: 100%; box-sizing: border-box; }
             th { background-color: #eef2f5; border-bottom: none; }
@@ -30,7 +31,7 @@
     <!-- 日本語版 / Japanese -->
     <section lang="ja">
         <h1>アプリサポート</h1>
-        <p>当開発者が提供するアプリのサポートページです。</p>
+        <p>当開発者が提供するアプリ（virtual collect、REFEREE lab 等）のサポートページです。</p>
 
         <h2>お問い合わせ</h2>
         <p>ご意見・ご要望・不具合のご報告は以下のフォームよりお願いいたします。</p>
@@ -39,13 +40,14 @@
         </p>
 
         <h2>サブスクリプションの解約方法</h2>
+        <p class="note">※有料プラン（サブスクリプション）を提供するアプリをご利用の場合のみ対象となります。</p>
         <p>有料プラン（サブスクリプション）の解約・確認は、iOSの設定画面またはApp Storeから行っていただけます。アプリを削除（アンインストール）しても解約にはなりませんのでご注意ください。</p>
         <p><strong>【解約手順】</strong></p>
         <ol>
             <li>iPhoneの「設定」アプリを開きます。</li>
             <li>画面上部の「自分の名前（Apple ID）」をタップします。</li>
             <li>「サブスクリプション」を選択します。</li>
-            <li>解約したいサブスクリプション（当アプリ）を選択します。</li>
+            <li>解約したいサブスクリプションを選択します。</li>
             <li>「サブスクリプションをキャンセルする」をタップします。</li>
         </ol>
         <p>
@@ -56,10 +58,10 @@
         <p>当アプリでは、ユーザーの個人情報の保護に努めております。以下にプライバシーポリシーを定めます。</p>
         
         <h3>1. 収集する情報</h3>
-        <p>本アプリでは、サービス品質向上および広告配信のために、以下のサードパーティ製SDKを使用しています。</p>
+        <p>本アプリでは、サービス品質向上、広告配信、および購入管理のために、以下のサードパーティ製SDKを使用する場合があります（導入機能はアプリにより異なります）。</p>
         <ul>
             <li><strong>Google AdMob:</strong> 広告配信のため、端末識別子等のデータを取得する場合があります。</li>
-            <li><strong>RevenueCat:</strong> サブスクリプション管理のため、購入履歴データを処理します。</li>
+            <li><strong>RevenueCat:</strong> サブスクリプションおよびアプリ内課金管理のため、購入履歴データを処理します。</li>
         </ul>
 
         <h3>2. 個人情報の利用目的</h3>
@@ -72,11 +74,11 @@
         <table>
             <tr>
                 <th>事業者名（販売業者）</th>
-                <td>[Jun Watanabe]</td>
+                <td>Jun Watanabe</td>
             </tr>
             <tr>
                 <th>代表者または運営責任者</th>
-                <td>[Jun Watanabe]</td>
+                <td>Jun Watanabe</td>
             </tr>
             <tr>
                 <th>所在地</th>
@@ -92,7 +94,7 @@
             </tr>
             <tr>
                 <th>販売価格</th>
-                <td>アプリ内購入画面（有料プラン選択画面）に表示される価格をご確認ください。</td>
+                <td>アプリ内購入画面（有料コンテンツ・プラン選択画面）に表示される価格をご確認ください。※無料アプリ（広告のみ）の場合は課金は発生いたしません。</td>
             </tr>
             <tr>
                 <th>商品代金以外の必要料金</th>
@@ -122,7 +124,7 @@
     <!-- 英語版 / English -->
     <section lang="en">
         <h1>App Support</h1>
-        <p>This is the support page for apps provided by the developer.</p>
+        <p>This is the support page for apps provided by the developer (e.g., virtual collect, REFEREE lab).</p>
 
         <h2>Contact Us</h2>
         <p>If you have any feedback, feature requests, or bug reports, please contact us using the form below.</p>
@@ -131,6 +133,7 @@
         </p>
 
         <h2>How to Cancel Subscription</h2>
+        <p class="note">*Applies only to apps that offer paid subscriptions.</p>
         <p>You can manage or cancel your auto-renewable subscription at any time from your iOS device settings. Please note that deleting the app does not automatically cancel your subscription.</p>
         <p><strong>【Cancellation Steps】</strong></p>
         <ol>
@@ -145,13 +148,13 @@
         </p>
 
         <h2>Privacy Policy</h2>
-        <p>We are committed to protecting user privacy. This Privacy Policy outlines how your information is handled within our application.</p>
+        <p>We are committed to protecting user privacy. This Privacy Policy outlines how your information is handled within our applications.</p>
         
         <h3>1. Information We Collect</h3>
-        <p>This app utilizes third-party SDKs for service quality improvement and advertising purposes:</p>
+        <p>Our apps may utilize third-party SDKs for service quality improvement, advertising purposes, and purchase management (SDKs used vary depending on the app):</p>
         <ul>
             <li><strong>Google AdMob:</strong> May collect device identifiers and other data for advertising delivery.</li>
-            <li><strong>RevenueCat:</strong> Processes purchase history data for subscription management.</li>
+            <li><strong>RevenueCat:</strong> Processes purchase history data for subscription and in-app purchase management.</li>
         </ul>
 
         <h3>2. Purpose of Information Use</h3>
@@ -164,11 +167,11 @@
         <table>
             <tr>
                 <th>Seller / Provider</th>
-                <td>[Your Name or Business Name]</td>
+                <td>Jun Watanabe</td>
             </tr>
             <tr>
                 <th>Representative</th>
-                <td>[Your Name]</td>
+                <td>Jun Watanabe</td>
             </tr>
             <tr>
                 <th>Address</th>
@@ -184,7 +187,7 @@
             </tr>
             <tr>
                 <th>Selling Price</th>
-                <td>Displayed on the in-app purchase screen for each item/plan.</td>
+                <td>Displayed on the in-app purchase screen for each item/plan. *Free apps supported by ads incur no charges.</td>
             </tr>
             <tr>
                 <th>Additional Fees</th>
@@ -210,7 +213,7 @@
     </section>
 
     <hr style="margin-top: 40px;">
-    <p style="font-size: 0.8em; color: #777; text-align: center;">&copy; 2026 Developer Name. All rights reserved.</p>
+    <p style="font-size: 0.8em; color: #777; text-align: center;">&copy; 2026 Jun Watanabe. All rights reserved.</p>
 
 </body>
 </html>
